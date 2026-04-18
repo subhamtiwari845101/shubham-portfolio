@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shubham Tiwari | Portfolio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  text-align: center;
+  padding: 120px 20px;
+  background: radial-gradient(circle at top, #161b22, #0d1117);
+}
+
+h1 {
+  font-size: 3.5rem;
+  background: linear-gradient(90deg, #00adb5, #00ffcc);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.btn {
+  margin-top: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #00adb5, #00ffcc);
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00adb5;
+}
+
+/* ---------- SECTIONS ---------- */
+section {
+  padding: 70px;
+  max-width: 1100px;
+  margin: auto;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.6s;
+}
+
+h2 {
+  color: #00adb5;
+  border-left: 4px solid #00adb5;
+  padding-left: 10px;
+}
+
+/* ---------- SKILLS ---------- */
+.grid {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.grid span {
+  background: #161b22;
+  padding: 10px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  border: 1px solid #30363d;
+}
+
+.grid span:hover {
+  background: #00adb5;
+  color: #000;
+}
+
+/* ---------- CARDS ---------- */
+.card {
+  background: rgba(22, 27, 34, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+  border: 1px solid #30363d;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px #00adb5;
+}
+
+/* ---------- PROJECT IMAGE ---------- */
+.project-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* ---------- LINKS ---------- */
+a {
+  color: #00adb5;
+  text-decoration: none;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #161b22;
+  border-top: 1px solid #30363d;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+  <h1>Shubham Tiwari</h1>
+  <p>Data Analyst | Data Science Enthusiast</p>
+  <a href="resume.pdf" download class="btn">Download Resume</a>
+</header>
+
+<section>
+  <h2>Profile Summary</h2>
+  <p>
+    Motivated Data Science graduate with strong foundation in Machine Learning,
+    Statistical Analysis, and Data Visualization. Skilled in building predictive
+    models and dashboards to drive data-driven decision making.
+  </p>
+</section>
+
+<section>
+  <h2>Technical Skills</h2>
+  <div class="grid">
+    <span>Python</span>
+    <span>SQL</span>
+    <span>Pandas</span>
+    <span>NumPy</span>
+    <span>Scikit-Learn</span>
+    <span>Machine Learning</span>
+    <span>EDA</span>
+    <span>Power BI</span>
+    <span>Excel</span>
+    <span>Statistics</span>
+    <span>NLP</span>
+    <span>Git & GitHub</span>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  <div class="card">
+    <img src="project1.png" class="project-img">
+    <h3>Laptop Price Prediction</h3>
+    <p>
+      Built ML model using Pandas & Scikit-Learn with 90% accuracy.
+      Includes preprocessing, feature engineering & visualization.
+    </p>
+    <a href="https://github.com/subhamtiwari845101/price-prediction-of-Laptop">View Project</a>
+  </div>
+
+  <div class="card">
+    <img src="project2.png" class="project-img">
+    <h3>Jarvix AI Assistant</h3>
+    <p>
+      Voice-based AI assistant with speech recognition,
+      web automation & email functionality.
+    </p>
+    <a href="https://github.com/subhamtiwari845101/JARVIX-AI-ASSISTENT">View Project</a>
+  </div>
+
+  <div class="card">
+    <img src="project3.png" class="project-img">
+    <h3>Iris Flower Classification</h3>
+    <p>
+      Classification using KNN & Decision Tree with
+      95–100% accuracy and full EDA pipeline.
+    </p>
+    <a href="https://github.com/subhamtiwari845101/Code-Alpha---Iris-Flower-Classification">View Project</a>
+  </div>
+
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <div class="card">
+    <p><strong>Python Intern – Code Alpha (Oct 2025)</strong></p>
+    <ul>
+      <li>Worked on real-world Python tasks</li>
+      <li>Improved problem-solving and coding skills</li>
+      <li>Built mini projects during internship</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="card">
+    <p><strong>B.Tech - Computer Science</strong></p>
+    <p>Accurate Institute of Management and Technology (2022–2026)</p>
+  </div>
+</section>
+
+<section>
+  <h2>Certifications</h2>
+  <div class="grid">
+    <span>Data Science - Code With Harry</span>
+    <span>Python - Code With Harry</span>
+    <span>Communication Skills - IBM</span>
+    <span>Data Analytics - Deloitte</span>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: subhamtiwari845101@gmail.com</p>
+  <p>
+    <a href="https://www.linkedin.com/in/shubham-tiwari-75a529280/">LinkedIn</a> |
+    <a href="https://github.com/subhamtiwari845101">GitHub</a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Shubham Tiwari</p>
+</footer>
+
+<script>
+window.addEventListener("scroll", () => {
+  document.querySelectorAll("section").forEach(sec => {
+    let pos = sec.getBoundingClientRect().top;
+    if (pos < window.innerHeight - 100) {
+      sec.style.opacity = 1;
+      sec.style.transform = "translateY(0)";
+    }
+  });
+});
+</script>
+
+</body>
+</html>
